@@ -14,5 +14,9 @@ public class AnimatorControllerFloatParameter {
 	public void Set(Animator animator,float val) {
 		animator.SetFloat (NameID,val);
 	}
+
+	public void Set(Animator animator,float val,float dampTime, float deltaTime) {
+		animator.SetFloat (NameID, val, dampTime, deltaTime);
+	}
 }
 
