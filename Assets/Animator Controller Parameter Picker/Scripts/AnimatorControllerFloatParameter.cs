@@ -7,8 +7,8 @@ public class AnimatorControllerFloatParameter {
 
 	public int NameID;
 
-	public bool Get(Animator animator) {
-		return animator.GetBool (NameID);
+	public float Get(Animator animator) {
+		return animator.GetFloat (NameID);
 	}
 
 	public void Set(Animator animator,float val) {
